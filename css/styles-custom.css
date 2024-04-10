@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Make sure to include the colon each time*/
+    font-size: 15px;
+    color: rgb(83, 83, 83);
+}
+ol {
+    font-weight: 300;
+}
+
+li {
+    font-weight: normal;
+    font-style: italic;
+}
+
+h1 {
+    color: rgb(38, 110, 254);
+    font-size: 40px;}
+    h3 {
+        color: rgb(55, 55, 55);
+        font-weight: 600;
+    }
+
+.listheading {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.centerjustify {text-align: center;}
+
+.homebg {
+    background: linear-gradient(to right,#1E30F3,#1EB9F3);
+}
+
+.common {
+    background-color: #eaebf1;
+    /* border: 2px solid white; */
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 15px;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    background-color: white;
+    top: 5px;
+}
+
+.vid-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
